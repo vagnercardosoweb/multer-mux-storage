@@ -1,7 +1,6 @@
 const express = require('express');
 const multer = require('multer');
-
-const { MuxStorage } = require('../dist');
+const { MuxStorage } = require('@vagnercardoso/multer-mux-storage');
 
 const app = express();
 const multerMuxStorage = multer({
