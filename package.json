@@ -30,7 +30,8 @@
     "build": "tsc",
     "postpublish": "yarn build",
     "lint": "eslint ./src/* --ext ts",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "run:example": "ts-node-dev --poll --respawn --transpile-only --ignore-watch './node_modules' './example/index.ts'"
   },
   "publishConfig": {
     "access": "public"
@@ -51,6 +52,7 @@
     "eslint-plugin-prettier": "^3.4.1",
     "git-commit-msg-linter": "^3.2.8",
     "prettier": "^2.3.2",
+    "ts-node-dev": "^1.1.8",
     "typescript": ">=3.3.1 <4.4.0"
   },
   "dependencies": {
