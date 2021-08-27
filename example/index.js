@@ -1,7 +1,7 @@
-import express from 'express';
-import multer from 'multer';
+const express = require('express');
+const multer = require('multer');
 
-import { MuxStorage } from '../src';
+const { MuxStorage } = require('../dist');
 
 const app = express();
 const multerMuxStorage = multer({
