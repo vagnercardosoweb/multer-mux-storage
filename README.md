@@ -12,7 +12,7 @@ Using express with typescript:
 
 ```typescript
 import express from 'express';
-import { MuxStorage } from 'multer-mux-storage';
+import { MuxStorage } from '@vagnercardoso/multer-mux-storage';
 import multer from 'multer';
 
 const app = express();
