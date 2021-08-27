@@ -1,10 +1,9 @@
 {
-  "name": "multer-mux-storage",
+  "name": "@vagnercardoso/multer-mux-storage",
   "private": false,
   "version": "1.0.0",
   "description": "Uploading video to MUX using Multer with Express",
   "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vagnercardosoweb/multer-mux-storage.git"
@@ -28,7 +27,7 @@
   "homepage": "https://github.com/vagnercardosoweb/multer-mux-storage#readme",
   "scripts": {
     "build": "tsc",
-    "postpublish": "yarn build",
+    "prepublish": "yarn build",
     "lint": "eslint ./src/* --ext ts",
     "lint:fix": "yarn lint --fix",
     "run:example": "ts-node-dev --poll --respawn --transpile-only --ignore-watch './node_modules' './example/index.ts'"

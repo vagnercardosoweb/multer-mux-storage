@@ -4,7 +4,7 @@
 
 ## Installation
 
-`npm install multer-mux-storage`
+`npm install @vagnercardoso/multer-mux-storage`
 
 ## Usage
 

@@ -6,7 +6,7 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDirs": ["./src", "./example"],
     "moduleResolution": "node",
     "removeComments": true,
     "noImplicitAny": true,
@@ -23,8 +23,7 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
-    "declaration": true,
-    "declarationDir": "./dist/types"
+    "declaration": true
   },
   "exclude": ["node_modules"],
   "include": ["./src/**/*.ts", "./example/**/*.ts"]
