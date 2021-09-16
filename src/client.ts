@@ -123,6 +123,8 @@ export class Client {
         );
       });
 
+      request.on('error', reject);
+
       if (
         ['POST', 'PUT', 'PATCH'].includes(
           options.method?.toUpperCase() ?? '',

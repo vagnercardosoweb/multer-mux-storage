@@ -1,7 +1,7 @@
 {
   "name": "@vagnercardoso/multer-mux-storage",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Uploading video to MUX using Multer with Express",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

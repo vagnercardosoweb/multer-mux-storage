@@ -92,6 +92,7 @@ class Client {
                     });
                 });
             });
+            request.on('error', reject);
             if (['POST', 'PUT', 'PATCH'].includes((_b = (_a = options.method) === null || _a === void 0 ? void 0 : _a.toUpperCase()) !== null && _b !== void 0 ? _b : '') &&
                 body) {
                 request.write(body);
